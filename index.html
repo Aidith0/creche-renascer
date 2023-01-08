@@ -5,46 +5,152 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Creche renascer</title>
+    <link rel="stylesheet" href="./css/estilo.css" />
   </head>
 
   <body>
     <header>
-      <img src="./assets/img/logo.jpeg" alt="logo" />
+      <img src="./assets/img/logo.png" alt="logo" />
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">sobre</a></li>
-          <li><a href="#">serviços</a></li>
-          <li><a href="#">contactos</a></li>
+          <li><a href="#Home" id="home">Home</a></li>
+          <li><a href="#sobre" id="sobr">sobre</a></li>
+          <li><a href="#ensinos" id="ensino">o que ensinamos</a></li>
+          <li><a href="#footer">contactos</a></li>
         </ul>
       </nav>
     </header>
-    <section>
-        <p></p>
 
-    </section>
-    <section id="home" >
+    <section id="Home">
       <h1>Bem-vindo ao nosso site</h1>
     </section>
-    <section id="">
-      <figure>
-        <figcaption>Hora de entrada</figcaption>
-         <img src="" alt="">
-      </figure>
-      <figure>
-        <figcaption>pequeno almoço</figcaption>
-         <img src="" alt="">
-      </figure>
-      <figure>
-        <figcaption> hora do recreio</figcaption>
-         <img src="" alt="">
-      </figure>
-      <figure>
-        <figcaption> </figcaption>
-         <img src="" alt="">
-      </figure>
 
+    <section id="sobre">
+      <h1 id="nossahistoria">Sobre nós</h1>
+      <hr id="historia" />
+      <p>
+        Nossos Valores nasceram e foram formados, em um pequeno bairro da Zona
+        Oeste do Rio de Janeiro, início de 1972, nascia o Jardim Escola
+        Joaninha.
+      </p>
+      <p>
+        Após mais de 30 anos, por trás de muita luta e dedicação, amor e
+        carinho, a escolinha cresceu, se tornando um dos principais nomes no
+        bairro.
+      </p>
+      <p>
+        Em 2016, Tia Terezinha, Tio Joaquim mais conhecido como TIO QUINCAS, Tia
+        Celinha resolveram se aposentar. Na mesma data, um empresário e sua
+        esposa comovidos com a história, tiveram o objetivo de não deixar este
+        legado acabar, dando continuidade a esta linda missão, com a Visão de
+        nos tornar a Maior Rede de Creches do País
+      </p>
+      <p>
+        O BRIGADO PAI, MÃE, ¨MÃEDRINHA¨ E ¨PAIDRINHO¨ POR TUDO QUE NOS TORNAMOS!
+      </p>
     </section>
-    
+
+    <section id="ensinos">
+      <h1>O que ensinamos</h1>
+      <hr id="ensinamos" />
+      <p>
+        Aprender Sempre é Divertido! Propostas de atividades que estimulam a
+        interação e a ludicidade | Valorização do conhecimento prévio da criança
+        para o desenvolvimento da sua autonomia | Desenvolvimento dos saberes
+        emocional, histórico, social, cultural, tecnológico e científico
+        |Soluções para o uso relevante da tecnologia educacional | Projeto
+        gráfico visualmente atrativo e estimulante | Orientações pedagógicas e
+        encaminhamentos para o professor | Atualização constante, conforme as
+        novas diretrizes educacionais – como a BNCC
+      </p>
+    </section>
+
+    <section id="imagem">
+      <figure>
+        <img src="./assets/img/entrada.jpeg" alt="entrada" />
+        <figcaption>Hora de entrada</figcaption>
+      </figure>
+      <figure>
+        <img src="./assets/img/pequeno almoço.jpeg" alt="pequenoalmoço" />
+        <figcaption>pequeno almoço</figcaption>
+      </figure>
+      <figure>
+        <img src="./assets/img/educação.jpeg" alt="educação" />
+        <figcaption>educação</figcaption>
+      </figure>
+      <figure>
+        <img src="./assets/img/almoço.jpeg" alt="almoço" />
+        <figcaption>hora do almoço.</figcaption>
+      </figure>
+      <figure>
+        <img src="./assets/img/recreio.jpeg" alt="recreio" />
+        <figcaption>hora do recreio</figcaption>
+      </figure>
+      <figure>
+        <img src="./assets/img/descanço.jpeg" alt="saída" />
+        <figcaption>Descanço</figcaption>
+      </figure>
+      <figure>
+        <img src="./assets/img/saída.jpeg" alt="saída" />
+        <figcaption>Saída</figcaption>
+      </figure>
+    </section>
+    <section id="form">
+      <form action="">
+        <input type="text" placeholder="Digite o seu nome" id="parente" /><br />
+        <input
+          type="text"
+          placeholder="Digite o nome do seu filho"
+          id="filho"
+        /><br />
+        <button type="submit" onclick="inscreverSe()"><img src="./assets/img/whats.png" height="30px"/>Inscrever-se</button>
+      </form>
+    </section>
+    <footer id="footer">
+      <div>
+        <h3>Localização</h3>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.google.com/maps/place/8%C2%B050'20.2%22S+13%C2%B012'30.9%22E/@-8.8389327,13.2063869,774m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x3b258a579e75f8bd!7e2!8m2!3d-8.838938!4d13.2085811"
+              >zamba2, Rua direita da samba,Luanda, casa nº 55</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contactos</h3>
+        <ul>
+          <li><a href="tel:948959821">948959821</a></li>
+          <li>
+            <a href="mailto:crecherenascer@gmail.com"
+              >crecherenascer@gmail.com</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>Redes sociais</h3>
+        <ul>
+          <li>
+            <a href="" target="_blank" rel="noopener noreferrer"
+              ><img
+                src="https://camo.githubusercontent.com/6507b6af1fa0c23a32321b4594fe0f353fc56a2e6721ea67a5f51cd830c85b61/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f46616365626f6f6b2d2532333138373746322e7376673f6c6f676f3d46616365626f6f6b266c6f676f436f6c6f723d7768697465"
+                alt="facebook"
+                srcset=""
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img
+                src="https://camo.githubusercontent.com/0641e2731604a57f9b9f2de4be17fcf1893c1fbf31dcb3e276f4281208616a1c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f496e7374616772616d2d2532334534343035462e7376673f6c6f676f3d496e7374616772616d266c6f676f436f6c6f723d7768697465"
+                alt="instagram"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./js/index.js"></script>
   </body>
 </html>
